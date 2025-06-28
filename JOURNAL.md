@@ -4,7 +4,7 @@ author: "Sophia"
 description: "A dev board with sensors and wireless features designed to monitor a 3D printer"
 created_at: "2024-6-27"
 ---
-# June 13th: Planning + basic schematic
+# June 27th: Planning + basic schematic
 
 **Total time spent: ~0.5h**
 
