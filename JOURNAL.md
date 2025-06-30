@@ -22,7 +22,7 @@ Planned out possible features:
 - Removable magnets to mount it
 - LiPo powered
 
-# June 28th: Finishing the PCB
+# June 28th: Finishing the schematic
 **Total time spent: 9h**
 
 I continued the tutorial and then added additional periferals and features that are specific to monitoring my printer.
@@ -31,4 +31,17 @@ Here is the temporary schematic: The pictures are of features I personally added
 ![image](https://github.com/user-attachments/assets/dbecd5ad-6cf7-4fdc-b46f-41a142abce0b)
 ![image](https://github.com/user-attachments/assets/edcca544-4d19-4092-9254-b73aad3ae426)
 
-Lots of time was spent today learning different concepts. I think this is my schematic finished, I just need to make sure everything will work, then i'll start searching for more footprints...
+Lots of time was spent today learning different concepts. I think this is my v1 schematic finished, I just need to make sure everything will work, then i'll start searching for more footprints...
+
+# June 29th: Beginning the PCB
+**Total time spent: 5.5h**
+
+I slightly modified my design, having the LEDs be a separate pcb for my bar light that can be connected to the main pcb, and chose to switch to the SK6812 for a greater brightness. 
+
+Most of today was spent chosing parts, learning how to add custom symbols/footprints/3d models, PCB editor features (alignment was a game changer) and fixing my schematic from feedback I received.
+
+I only managed to begin the layout of the led strip:
+
+![image](https://github.com/user-attachments/assets/c357dccb-04d9-40db-a0b4-0b31c7ebe402)
+
+
