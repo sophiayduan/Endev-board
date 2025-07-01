@@ -4,6 +4,8 @@ author: "Sophia"
 description: "A dev board with sensors and wireless features designed to monitor a 3D printer"
 created_at: "2024-6-27"
 ---
+**Running hour total: 16.5h**
+
 # June 27th: Planning + basic schematic
 
 **Total time spent: ~0.5h**
@@ -43,5 +45,11 @@ Most of today was spent chosing parts, learning how to add custom symbols/footpr
 I only managed to begin the layout of the led strip:
 
 ![image](https://github.com/user-attachments/assets/c357dccb-04d9-40db-a0b4-0b31c7ebe402)
+# June 29th: The LED strip
+**Total time spent: 1.5h**
 
+Somewhat finished the LED strip pcb and that case. 
+I plan on pausing the print midway through, inserting the neodymium magnets then resuming, since they are really brittle I don't want to damage them. 
+![image](https://github.com/user-attachments/assets/57b4939b-2392-406a-8e6e-de6c1352a259)
+![image](https://github.com/user-attachments/assets/9f97d6a8-0332-4be1-a3fc-67620b09172f)
 
