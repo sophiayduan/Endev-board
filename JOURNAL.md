@@ -4,7 +4,7 @@ author: "Sophia"
 description: "A dev board with sensors and wireless features designed to monitor a 3D printer"
 created_at: "2024-6-27"
 ---
-**Running hour total: 16.5h**
+**Running hour total: 21.5**
 
 # June 27th: Planning + basic schematic
 
@@ -45,7 +45,7 @@ Most of today was spent chosing parts, learning how to add custom symbols/footpr
 I only managed to begin the layout of the led strip:
 
 ![image](https://github.com/user-attachments/assets/c357dccb-04d9-40db-a0b4-0b31c7ebe402)
-# June 29th: The LED strip
+# June 30th: The LED strip
 **Total time spent: 1.5h**
 
 Somewhat finished the LED strip pcb and that case. 
@@ -53,3 +53,15 @@ I plan on pausing the print midway through, inserting the neodymium magnets then
 ![image](https://github.com/user-attachments/assets/57b4939b-2392-406a-8e6e-de6c1352a259)
 ![image](https://github.com/user-attachments/assets/9f97d6a8-0332-4be1-a3fc-67620b09172f)
 
+# July 1st: Footprints and PCB
+Happy Canada Day!
+**Total time spent: 5h**
+Today I worked through an ERC error and found footprints, I began routing but I think i'll start from scratch tomorrow. 
+
+This was my first time laying out something that wasn't extremely simple and it takes so, so, so long for me to do. I don't think I got 5 hours worth of work done, but I definitely tried for 5h.
+
+![image](https://github.com/user-attachments/assets/bc1808bd-31e6-4525-b42d-32ee87a053e1)
+
+^^^ That was how far I got on my like 3rd attempt before I realized it got too chaotic and I need to restart tomorrow.
+
+Tomorrow I hope I can finish the PCB, and its case.
