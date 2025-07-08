@@ -4,7 +4,7 @@ author: "Sophia"
 description: "A dev board with sensors and wireless features designed to monitor a 3D printer"
 created_at: "2024-6-27"
 ---
-**Running hour total: 21.5**
+**Running hour total: 24.5**
 
 # June 27th: Planning + basic schematic
 
@@ -35,6 +35,7 @@ Here is the temporary schematic: The pictures are of features I personally added
 
 Lots of time was spent today learning different concepts. I think this is my v1 schematic finished, I just need to make sure everything will work, then i'll start searching for more footprints...
 
+I added the ESP-12 for WiFi connection, so if something went wrong, and I am at home, I can receive a notification. (However, 
 # June 29th: Beginning the PCB
 **Total time spent: 5.5h**
 
@@ -65,3 +66,21 @@ This was my first time laying out something that wasn't extremely simple and it 
 ^^^ That was how far I got on my like 3rd attempt before I realized it got too chaotic and I need to restart tomorrow.
 
 Tomorrow I hope I can finish the PCB, and its case.
+
+# July 3rd: 
+Today I worked more on the final PCB, but honestly no progress was made, I just did more research and came up with a different layout and did poor routing.
+
+
+# July 7th: PCB traces
+
+**Total time spent: 2h**
+
+JPEG is over, so I am back to locking in on this project. Today I changed the layout one again, this time i think is the last time before manufacturing v1 of the pcb. I am nearly finished my PCB, just need to:
+- add ground pour
+- switch some footprints
+- wire a couple more compnonents (mostly the connectors)
+- modify trace widths
+
+  ![image](https://github.com/user-attachments/assets/6253d5c2-6d2e-467c-b897-e1ca96c37c06)
+
+Today I learned more about klipper and realized it does most of the work my project does aswell, oops. 
