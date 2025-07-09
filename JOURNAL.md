@@ -4,7 +4,7 @@ author: "Sophia"
 description: "A dev board with sensors and wireless features designed to monitor a 3D printer"
 created_at: "2024-6-27"
 ---
-**Running hour total: 24.5**
+**Running hour total: 31.5**
 
 # June 27th: Planning + basic schematic
 
@@ -68,6 +68,8 @@ This was my first time laying out something that wasn't extremely simple and it 
 Tomorrow I hope I can finish the PCB, and its case.
 
 # July 3rd: 
+
+**Total time spent: 1h**
 Today I worked more on the final PCB, but honestly no progress was made, I just did more research and came up with a different layout and did poor routing.
 
 
@@ -84,3 +86,21 @@ JPEG is over, so I am back to locking in on this project. Today I changed the la
   ![image](https://github.com/user-attachments/assets/6253d5c2-6d2e-467c-b897-e1ca96c37c06)
 
 Today I learned more about klipper and realized it does most of the work my project does aswell, oops. 
+# July 8th: Many many DRC errors
+
+**Total time spent: 7h**
+
+![image](https://github.com/user-attachments/assets/6fb0ae3f-96f5-4984-b88b-695677505b25)
+
+However, I completed the PCB and fixed like 112 DRC Errors (most were due to some footprints with clearance issues). I added some stiching vias, mounting holes, fillets, then called it a day.
+There were a few things I temporarily fixed that I will have to review before getting this manufactured, such as the pads on the accelerometer and mag. rotary encoder. 
+
+My routing is probably very bad and the PCB probably won't work first try. Its truely my first time making traces that weren't literally connecting some leds and resistors.
+
+I also finally split up my PCBs, originally my led strip and main pcb were in one kicad project, but that was causing some issues in the PCB editor. 
+
+My PCB wasn't built for compactness, but I may remake it in the future with that in mind. Its now 4am and i'll finish and submit my project tomorrow (hopefully).
+
+Finally its green: (the exclusions are genuinely fine and should be ignored, like some silkscreen stuff)
+
+![image](https://github.com/user-attachments/assets/6d49bf33-6d48-41b8-b778-3eecefe339ff)
