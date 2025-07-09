@@ -1,5 +1,7 @@
 # Endev-board
 Dev board tracking 3D printer conditions for my Ender 3
+I made this since my printer is pretty unreliable and I find myself checking on it every few minutes, i'd like to be able to trust that it is printing without needing to check anything.
+
 
 Features:
 - Battery powered
