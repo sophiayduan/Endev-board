@@ -104,3 +104,13 @@ My PCB wasn't built for compactness, but I may remake it in the future with that
 Finally its green: (the exclusions are genuinely fine and should be ignored, like some silkscreen stuff)
 
 ![image](https://github.com/user-attachments/assets/6d49bf33-6d48-41b8-b778-3eecefe339ff)
+
+# July 9th: Many many DRC errors
+
+**Total time spent: 4h**
+
+I kinda need to submit this asap so I'm going to make my filament movement tracking with the magnetic rotary encoder much simpler. Originally, the filament would feed through two groove bearings with a magnet attached to one, and the encoder reads that the bearing is moving. Instead, I will just attach some magnets to my filament spools; This way is much less accurate but it is enough for now. 
+
+I started off  by making an enclosure, but I don't love how bulky it looks. So, I opted for a only a mounting plate, that also helps my mag. rotary encoder register the magnets on the spool. 
+
+Tomorrow I just need to work on my BOM and make some final tweaks to my cad
