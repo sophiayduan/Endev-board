@@ -113,6 +113,6 @@ I kinda need to submit this asap so I'm going to make my filament movement track
 
 I started off  by making an enclosure, but I don't love how bulky it looks. So, I opted for a only a mounting plate, that also helps my mag. rotary encoder register the magnets on the spool. 
 
-![image](https://github.com/user-attachments/assets/445f25d6-84d1-47a7-97a8-5636fe18b74f)
+![image](https://github.com/user-attachments/assets/d47f2e94-b3e0-4e8b-8c2a-80e604907a91)
 
 Tomorrow I just need to work on my BOM and make some final tweaks to my cad
