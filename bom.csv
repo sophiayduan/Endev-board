@@ -1,4 +1,4 @@
-﻿Designator,Footprint,Quantity,Value,LCSC Part #
+Designator,Footprint,Quantity,Value,LCSC Part #
 A1,Arduino_Nano,1,Arduino_Nano_v3.x,
 BT1,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,1,Battery_Cell,
 "C1, C2, C8, C9",0402,4,100nF,
