@@ -4,7 +4,7 @@ author: "Sophia"
 description: "A dev board with sensors and wireless features designed to monitor a 3D printer"
 created_at: "2024-6-27"
 ---
-**Running hour total: 35.5**
+**Running hour total: 38.5**
 
 # June 27th: Planning + basic schematic
 
@@ -116,3 +116,19 @@ I started off  by making an enclosure, but I don't love how bulky it looks. So, 
 ![image](https://github.com/user-attachments/assets/d47f2e94-b3e0-4e8b-8c2a-80e604907a91)
 
 Tomorrow I just need to work on my BOM and make some final tweaks to my cad
+
+# July 10th: Finished?
+
+**Total time spent: 3h**
+
+I accidentally deleted what I previously wrote. So, in short, on the 10th I was nearly ready to submit my project; Adding production files, creating my BOM, finding all the LCSC parts and making final tweaks to my PCB. However, as of the 11th, I am no longer in a rush and I have loads of time on my hands. I'm going to remake it properly, the right way. Get myself out of all the technical debt that piled up, and learn what I need to make this PCB as I originally envisoned it. 
+
+# July 11th & 12th: Hell no
+
+**Total time spent: 3h**
+
+There wasn't too much progress so I clumped these two days together. I started off by getting rid of my bad imported footprints. Then I followed this guide on schematic best practices, and I finally switched to two slide switches and one 2 digit DIP switch. 
+
+Now I am working on a new PCB that aligns nicely with my spool holder, has correct trace widths, proper via sizes, accounts for impedance...  
+
+<img width="415" height="752" alt="image" src="https://github.com/user-attachments/assets/5271bc4e-8b3a-417e-9589-d496801147af" />
