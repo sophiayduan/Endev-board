@@ -6,6 +6,8 @@ created_at: "2024-6-27"
 ---
 **Running hour total: 38.5**
 
+This PCB isn't deserving of its high hour count, but I was extremely new to electronics and PCB design when I began.
+
 # June 27th: Planning + basic schematic
 
 **Total time spent: ~0.5h**
