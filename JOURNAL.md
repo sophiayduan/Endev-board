@@ -1,12 +1,12 @@
 ---
 title: "Endev Board"
 author: "Sophia"
-description: "A dev board with sensors and wireless features designed to monitor a 3D printer"
+description: "A dev board with sensors and features designed to monitor a 3D printer"
 created_at: "2024-6-27"
 ---
-**Running hour total: 38.5**
+**Running hour total: 59.5**
 
-This PCB isn't deserving of its high hour count, but I was extremely new to electronics and PCB design when I began.
+This PCB isn't deserving of its high hour count, but I was extremely new to electronics and PCB design when I began. Now i'm a bit less new.
 
 # June 27th: Planning + basic schematic
 
@@ -134,3 +134,29 @@ There wasn't too much progress so I clumped these two days together. I started o
 Now I am working on a new PCB that aligns nicely with my spool holder, has correct trace widths, proper via sizes, accounts for impedance...  
 
 <img width="415" height="752" alt="image" src="https://github.com/user-attachments/assets/5271bc4e-8b3a-417e-9589-d496801147af" />
+
+# July 22nd: Oops?
+
+**Total time spent: 9h**
+
+I changed a footprints that I realized were incorrect, the ICSP (Pin sockets) and my 2 pos DIP switches. 
+Switched to M3 Mounting holes (as I found cheap threaded inserts for those)
+Got rid of the references and moved them to F.Fab, they were taking up too much space. 
+I dropped my copper pour on front as my components were too cramped to make use of it. 
+
+The first part of today was spent making this monstrosity:
+<img width="1033" height="685" alt="Screenshot 2025-07-23 185845" src="https://github.com/user-attachments/assets/54e9bd9e-7f4b-4fed-ae78-b5f9e9cd2121" />
+
+I wasn't happy with this as I really freaked up the integrity of my ground pour of the bottom layer as I have so many traces there. Also there are so. many. vias. 
+So I restarted. 
+The biggest change I made was dropping my magnetic rotary encoder idea for a regular (and infintely rotating) rotary encoder. I realized the area I planned on mounting my PCB was quite cramped, and a bit too sketchy to put so many metal components. 
+
+# July 23rd: Finished.
+
+**Total time spent: 9h**
+
+I finally locked in and finished this thing off, couldn't have done it without Phil's Lab 🙏
+I changed a footprints that I realized were incorrect, the ICSP (Pin sockets) and my 2 pos DIP switches 
+
+Now I've submitted my design for review on reddit and I'm free to work on other projects.
+This project should definitely not have taken so long but I rerouted 3 times as i'm still learning. oops.
