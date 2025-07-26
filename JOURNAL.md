@@ -140,7 +140,6 @@ Now I am working on a new PCB that aligns nicely with my spool holder, has corre
 **Total time spent: 9h**
 
 I changed a footprints that I realized were incorrect, the ICSP (Pin sockets) and my 2 pos DIP switches. 
-Switched to M3 Mounting holes (as I found cheap threaded inserts for those)
 Got rid of the references and moved them to F.Fab, they were taking up too much space. 
 I dropped my copper pour on front as my components were too cramped to make use of it. 
 
@@ -149,14 +148,19 @@ The first part of today was spent making this monstrosity:
 
 I wasn't happy with this as I really freaked up the integrity of my ground pour of the bottom layer as I have so many traces there. Also there are so. many. vias. 
 So I restarted. 
-The biggest change I made was dropping my magnetic rotary encoder idea for a regular (and infintely rotating) rotary encoder. I realized the area I planned on mounting my PCB was quite cramped, and a bit too sketchy to put so many metal components. 
+The biggest change I made was dropping my magnetic rotary encoder idea for a regular (and infintely rotating) rotary encoder. I realized the area I planned on mounting my PCB was quite cramped, and a bit too sketchy to put so many metal components. (Though, I haven't begun implemeting it)
 
-# July 23rd: Finished.
+# July 23rd: More work
 
 **Total time spent: 9h**
 
-I finally locked in and finished this thing off, couldn't have done it without Phil's Lab 🙏
-I changed a footprints that I realized were incorrect, the ICSP (Pin sockets) and my 2 pos DIP switches 
+I sketched out ideas and finalized on how my filament feeder would be attached. I finalized on having another PCB (3 i know is a lot), on the opposite side as the encoder is pretty big. I spent too much time finding the ideal rotary encoder and settled on the 
+I did an immense amount of routing but didn't take any screenshots (i'm writing this in retrospect)
 
-Now I've submitted my design for review on reddit and I'm free to work on other projects.
-This project should definitely not have taken so long but I rerouted 3 times as i'm still learning. oops.
+# July 24rd: CAAAAAD
+
+**Total time spent: 3h**
+
+More routing (no photo again oops, all you have to know is that it was frustrating). 
+Finally I went back to something I was more familiar with, 3d modeling!!!! I created the plates that the PCBs will be attached to: adding M2 threaded inserts/screws, added space for magnets on the back of the plate (but is concealed so the impact of the magnets won't cause them to chip).
+
