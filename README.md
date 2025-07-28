@@ -1,31 +1,41 @@
-# Endev-board
-Dev board tracking 3D printer conditions for my Ender 3
-I made this since my printer is pretty unreliable and I find myself checking on it every few minutes, i'd like to be able to trust that it is printing without needing to check anything.
+# Endev
 
+Its a system that monitors my printer using electronic and mechanical components.
 
 Features:
-- Battery powered
-- Sensors: Accelerometer, Temp and Humidity,
-- Leds to illuminate the printer
 
-If an error is detected, it will send a notification to my phone, so I know to go check on my printer. 
+* Form factor: fits inside the spool holder bracket
+* Mounting: Magnets that align with the spool holder bracket
+* Peripherals: Accelerometer (to detect intense vibration), Temp/humidity sensor (self explanatory), ESP-12F (for sending notifications over wifi), Configuration switches, status LED
+* Filament movement detection: Checks if the filament is moving or not (e.g. filament runout, jam)
+* LED strip attachment: so I can illuminate my printer 
 
-PCB: 
+I built it as my printer is not known for its reliability, so by tracking common points of failure, I can hopefully stop the print without needing to check on my printer every few minutes.
+ 
 
-<img width="877" height="752" alt="image" src="https://github.com/user-attachments/assets/1233e958-ef8a-4022-8cee-aa49cc08c608" />
+## PCB
 
-<img width="435" height="368" alt="image" src="https://github.com/user-attachments/assets/0ffa73b1-f152-4419-aa9a-ebde6f4a6b11" />
-<img width="434" height="368" alt="image" src="https://github.com/user-attachments/assets/4530c994-16b3-424d-a418-ea61f3286d13" />
+It's not the best but hopefully it works
 
-CAD:
 
-<img width="487" height="540" alt="image" src="https://github.com/user-attachments/assets/11b611a6-a671-44cd-9eae-da10cc9446e6" />
+## CAD
 
-<img width="90" height="15" alt="image" src="https://github.com/user-attachments/assets/d5a9b100-d020-4bbc-b678-b8732c9533dc" />
+### The full project 
+(+ the spool bracket where my components will be attached)
 
-<img width="723" height="122" alt="image" src="https://github.com/user-attachments/assets/c94f58ec-ed87-4c06-bbf6-47013ecd2415" />
+<img width="317" height="317" alt="front" src="https://github.com/user-attachments/assets/8862a835-a980-451b-8f62-16edda9154fe" />
 
-<img width="933" height="429" alt="image" src="https://github.com/user-attachments/assets/add6a5bf-1f4c-4b84-8a6d-28fcc3925c63" />
+<img width="317" height="317" alt="Untitled v17" src="https://github.com/user-attachments/assets/19113958-1743-4d25-bd7a-453f27c742a4" />
 
-My project is based off of @[karmanyaahm](https://github.com/karmanyaahm)'s amazing [jam](https://jams.hackclub.com/batch/sparkletilt-pcb/part-1)
-It taught me loads about the basics of working with MCU's. 
+Note: 
+- The bearing in the cad is not the one i'll be using (I'll be using a u-groove one)
+- The renders aren't great but i'll improve them soon
+  
+3d printing step files and additional pictures are in the cad folder
+
+## Credits
+
+My project is based off of @[karmanyaahm](https://github.com/karmanyaahm)'s amazing [jam](https://jams.hackclub.com/batch/sparkletilt-pcb/part-1), it was an incredible resource to learn about creating a PCB.
+
+## BOM
+
