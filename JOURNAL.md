@@ -113,17 +113,20 @@ Finally its green: (the exclusions are genuinely fine and should be ignored, lik
 
 I kinda need to submit this asap so I'm going to make my filament movement tracking with the magnetic rotary encoder much simpler. Originally, the filament would feed through two groove bearings with a magnet attached to one, and the encoder reads that the bearing is moving. Instead, I will just attach some magnets to my filament spools; This way is much less accurate but it is enough for now. 
 
-I started off  by making an enclosure, but I don't love how bulky it looks. So, I opted for a only a mounting plate, that also helps my mag. rotary encoder register the magnets on the spool. 
+I started off by making an enclosure, but I don't love how bulky it looks. So, I opted for a only a mounting plate, that also helps my mag. rotary encoder register the magnets on the spool. 
 
 ![image](https://github.com/user-attachments/assets/d47f2e94-b3e0-4e8b-8c2a-80e604907a91)
+
+I also worked with sheet metal for the first time in Fusion, modeling the bracket my board will be mounted on
 
 Tomorrow I just need to work on my BOM and make some final tweaks to my cad
 
 # July 10th: Finished?
 
-**Total time spent: 3h**
+**Total time spent: 2h**
 
-I accidentally deleted what I previously wrote. So, in short, on the 10th I was nearly ready to submit my project; Adding production files, creating my BOM, finding all the LCSC parts and making final tweaks to my PCB. However, as of the 11th, I am no longer in a rush and I have loads of time on my hands. I'm going to remake it properly, the right way. Get myself out of all the technical debt that piled up, and learn what I need to make this PCB as I originally envisoned it. 
+I accidentally deleted what I previously wrote. So, in short, on the 10th I was nearly ready to submit my project; Adding production files, creating my BOM, finding all the LCSC parts and making final tweaks to my PCB. However, as of the 11th, I am no longer in a rush and I have loads of time on my hands. 
+I'm going to remake it properly, the right way. Get myself out of all the technical debt that piled up, and learn what I need to make this PCB as I originally envisoned it. I did more research on my components and simplified the amount of different components I needed. 
 
 # July 11th & 12th: Hell no
 
@@ -154,13 +157,39 @@ The biggest change I made was dropping my magnetic rotary encoder idea for a reg
 
 **Total time spent: 9h**
 
-I sketched out ideas and finalized on how my filament feeder would be attached. I finalized on having another PCB (3 i know is a lot), on the opposite side as the encoder is pretty big. I spent too much time finding the ideal rotary encoder and settled on the 
-I did an immense amount of routing but didn't take any screenshots (i'm writing this in retrospect)
+I sketched out ideas and finalized on how my filament feeder would be attached. I finalized on having another PCB (3 i know is a lot), on the opposite side as the encoder is pretty big. I spent too much time finding the ideal rotary encoder and settled on the TK
+
+I did an immense amount of routing
+<img width="355" height="665" alt="image" src="https://github.com/user-attachments/assets/90dd06b4-9fdd-4bcc-89de-4cc2080f26b5" />
 
 # July 24rd: CAAAAAD
 
 **Total time spent: 3h**
 
 More routing (no photo again oops, all you have to know is that it was frustrating). 
-Finally I went back to something I was more familiar with, 3d modeling!!!! I created the plates that the PCBs will be attached to: adding M2 threaded inserts/screws, added space for magnets on the back of the plate (but is concealed so the impact of the magnets won't cause them to chip).
+Finally I went back to something I was more familiar with, 3d modeling!!!! I created the plates that the PCBs will be attached to: adding M2 threaded inserts/screws, added space for magnets on the back of the plate (didn't conceal them as I want to get my hands on the magnets to test their brittleness first)
 
+<img width="471" height="627" alt="image" src="https://github.com/user-attachments/assets/4339ab43-eed7-471b-8188-7f13f2e1610b" />
+
+<img width="451" height="594" alt="image" src="https://github.com/user-attachments/assets/d34d04cf-83f5-421a-a90d-37896f5e3696" />
+
+# July 27th: Almost there...
+
+**Total time spent: 4h**
+
+Cadded the filament movement section:
+
+<img width="299" height="314" alt="image" src="https://github.com/user-attachments/assets/ec9bd534-04d6-4f32-b375-e8a9da9f5135" />
+
+<img width="357" height="307" alt="image" src="https://github.com/user-attachments/assets/258fc230-cdf1-4201-b41d-a61edbe13768" />
+
+
+Finished the routing but I still have DRC errors, need to add silkscreen text, need stitching vias, etc. 
+
+<img width="426" height="725" alt="image" src="https://github.com/user-attachments/assets/0f0b52db-cbf0-43b6-b786-d551a950f4e9" />
+
+# July 28th: Finishing up
+
+**Total time spent: 3h**
+
+Finished my PCB (no more DRC errors !!), created my BOM, and wrote a proper readme.
