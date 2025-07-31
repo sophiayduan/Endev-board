@@ -4,9 +4,9 @@ author: "Sophia"
 description: "A dev board with sensors and features designed to monitor a 3D printer"
 created_at: "2024-6-27"
 ---
-**Running hour total: 59.5**
+**Running hour total: 68.5**
 
-This PCB isn't deserving of its high hour count, but I was extremely new to electronics and PCB design when I began. Now i'm a bit less new.
+This project isn't deserving of its high hour count, but I was extremely new to electronics and PCB design when I began. Now i'm a bit less new.
 
 # June 27th: Planning + basic schematic
 
