@@ -4,7 +4,7 @@ author: "Sophia"
 description: "A dev board with sensors and features designed to monitor a 3D printer"
 created_at: "2024-6-27"
 ---
-**Running hour total: 68.5**
+**Running hour total: 70.5**
 
 This project isn't deserving of its high hour count, but I was extremely new to electronics and PCB design when I began. Now i'm a bit less new.
 
@@ -190,7 +190,12 @@ Finished the routing but I still have DRC errors, need to add silkscreen text, n
 
 # July 30th: Finishing up
 
-**Total time spent: 3h**
+**Total time spent: 5h**
 
 Finished my PCB, found all the JLC parts, created my BOM, and got this project ready to submit!
+
+Also recadded my LED strip as some components changed since I originally made it 
+
+<img width="1239" height="360" alt="image" src="https://github.com/user-attachments/assets/fa50eb87-5e0d-4cdb-ab8b-26be83cf678b" />
+
 Finished photos are in the images folder and my readme
