@@ -23,6 +23,8 @@ I built it as my printer is not known for its reliability, so by tracking common
 
 <img width="317" height="317" alt="Untitled v17" src="https://github.com/user-attachments/assets/19113958-1743-4d25-bd7a-453f27c742a4" />
 
+<img width="701" height="173" alt="image" src="https://github.com/user-attachments/assets/f5786ec1-6de8-4b6d-801b-b2218c32762c" />
+
 Note: 
 - The bearing in the cad is not the one i'll be using (I'll be using a u-groove one)
 - The renders aren't great but i'll improve them soon
