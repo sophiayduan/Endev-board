@@ -39,3 +39,4 @@ My project is based off of @[karmanyaahm](https://github.com/karmanyaahm)'s amaz
 
 ## BOM
 
+TOTAL: $148.82 (128.82 after JLC coupon)

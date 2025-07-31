@@ -188,8 +188,9 @@ Finished the routing but I still have DRC errors, need to add silkscreen text, n
 
 <img width="426" height="725" alt="image" src="https://github.com/user-attachments/assets/0f0b52db-cbf0-43b6-b786-d551a950f4e9" />
 
-# July 28th: Finishing up
+# July 30th: Finishing up
 
 **Total time spent: 3h**
 
-Finished my PCB (no more DRC errors !!), created my BOM, and wrote a proper readme.
+Finished my PCB, found all the JLC parts, created my BOM, and got this project ready to submit!
+Finished photos are in the images folder and my readme
