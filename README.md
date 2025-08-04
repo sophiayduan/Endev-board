@@ -1,6 +1,6 @@
 # Endev
 
-Its a system that monitors my printer using electronic and mechanical components.
+This project centers around a dev board that monitors my printer using electronic and mechanical components.
 
 Features:
 
