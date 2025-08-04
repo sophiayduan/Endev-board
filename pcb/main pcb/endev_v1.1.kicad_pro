@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.55,
-          "width": 1.6
+          "height": 1.0,
+          "width": 2.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,7 +60,59 @@
       ],
       "drc_exclusions": [
         [
+          "clearance|163700000|90200000|059529c6-cfad-4561-bbed-a65e4a8a4180|b1a0d9e9-7bc3-4051-ae66-58256f557739",
+          ""
+        ],
+        [
+          "clearance|163700000|90700000|b1a0d9e9-7bc3-4051-ae66-58256f557739|fdb9c045-e4a4-4e39-9650-a7ffa4190ff3",
+          ""
+        ],
+        [
+          "clearance|163700000|91200000|fdb9c045-e4a4-4e39-9650-a7ffa4190ff3|26e9e7f8-a8af-453a-9427-283d8f3ff1ad",
+          ""
+        ],
+        [
+          "clearance|163700000|91700000|26e9e7f8-a8af-453a-9427-283d8f3ff1ad|bab82560-0c93-4d2e-a850-6153079fd701",
+          ""
+        ],
+        [
+          "clearance|164825000|92475000|a68b655f-d2cc-4106-86d8-2c0c1d97d94c|295ac3da-403f-4838-b307-8ecdb8c0f17e",
+          ""
+        ],
+        [
+          "clearance|164975000|90025000|9f2b8d62-db9b-4e18-8f5e-9491401dff47|302d7fcf-016f-4bca-8276-a6274e5bf1e1",
+          ""
+        ],
+        [
+          "clearance|165325000|92475000|295ac3da-403f-4838-b307-8ecdb8c0f17e|9671d9b7-097d-4fae-b555-451a9ea2a4a4",
+          ""
+        ],
+        [
+          "clearance|165475000|90025000|a396965a-7b62-41ed-a432-c3f4df7d5cdc|9f2b8d62-db9b-4e18-8f5e-9491401dff47",
+          ""
+        ],
+        [
+          "clearance|166150000|90350000|7df4be19-9be3-40c2-b7b2-6ca8e411c625|fc7f9878-2f67-4f8f-8ddb-5fb7eaa62e8b",
+          ""
+        ],
+        [
+          "clearance|166150000|90850000|e7753756-00ea-4ce7-b475-f1cbecfecd6d|7df4be19-9be3-40c2-b7b2-6ca8e411c625",
+          ""
+        ],
+        [
+          "clearance|166150000|91350000|68281a9d-0e67-47e4-962c-9ebbf7c4ea51|e7753756-00ea-4ce7-b475-f1cbecfecd6d",
+          ""
+        ],
+        [
+          "clearance|166150000|91850000|494ab23e-22d9-4ae4-8093-c5a0e7217389|68281a9d-0e67-47e4-962c-9ebbf7c4ea51",
+          ""
+        ],
+        [
           "courtyards_overlap|142900000|114105000|e417ca6b-b884-4535-956d-4736a79f617d|ec1424aa-d0e1-43b7-921a-cde036758f6e",
+          ""
+        ],
+        [
+          "courtyards_overlap|144575000|113625000|67a0e8f6-5715-4270-ad45-18dc088a4789|ec1424aa-d0e1-43b7-921a-cde036758f6e",
           ""
         ],
         [
@@ -128,7 +180,11 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|138350000|111500000|140eed70-2a79-4362-8880-561f5c25bb8d|00000000-0000-0000-0000-000000000000",
+          "courtyards_overlap|159224291|113625000|119fcd24-5834-4964-ab25-f9f9f99b4fab|ec1424aa-d0e1-43b7-921a-cde036758f6e",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|138250000|112000000|140eed70-2a79-4362-8880-561f5c25bb8d|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -140,11 +196,15 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|152035000|118271249|c90a9462-f811-4a1a-abdc-281298c62a6b|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|151825000|76050000|312127f6-3479-4ad8-8578-2af49e908bbe|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|152035000|62910000|1dbbeeb7-8fa8-4293-9c54-1c2e8f0023e1|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|151900000|56700000|1dbbeeb7-8fa8-4293-9c54-1c2e8f0023e1|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|152035000|118271249|c90a9462-f811-4a1a-abdc-281298c62a6b|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -152,11 +212,11 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|152500000|76050000|312127f6-3479-4ad8-8578-2af49e908bbe|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|165700000|75700000|aec7db39-f78b-4fb2-8a11-2cfb20b9c1cb|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|165700000|75700000|aec7db39-f78b-4fb2-8a11-2cfb20b9c1cb|00000000-0000-0000-0000-000000000000",
+          "missing_courtyard|136600000|108250000|5172137b-9262-4bfd-b86e-3acf25d8a6f2|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -657,12 +717,6 @@
         },
         {
           "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
@@ -853,7 +907,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Datasheet"
     },
     "connection_grid_size": 50.0,
     "drawing": {
