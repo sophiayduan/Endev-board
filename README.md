@@ -45,6 +45,7 @@ It's not the best but hopefully it works
 the simplest pcb ever
 
 <img width="366" height="308" alt="image" src="https://github.com/user-attachments/assets/0b33c6e5-0aaa-4444-966b-f288990b7d21" />
+
 ## Credits
 
 My project is based off of @[karmanyaahm](https://github.com/karmanyaahm)'s amazing [jam](https://jams.hackclub.com/batch/sparkletilt-pcb/part-1), it was an incredible resource to learn about creating a PCB.
