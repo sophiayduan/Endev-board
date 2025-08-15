@@ -199,3 +199,9 @@ Also recadded my LED strip as some components changed since I originally made it
 <img width="1239" height="360" alt="image" src="https://github.com/user-attachments/assets/fa50eb87-5e0d-4cdb-ab8b-26be83cf678b" />
 
 Finished photos are in the images folder and my readme
+
+# August 15th: I'm back.
+
+**Total time spent: 0.5h**
+
+Thought I was finally done with this, but after posting this on reddit I got some good feedback. I'm going to make my main pcb no longer a devboard as I don't need it to be one, it definitely wasn't made/optimized to be one, and it has a specific use case. Right now I'm considering moving my rotary encoder to this board so I can have one all in one board. 
